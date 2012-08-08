@@ -1,5 +1,11 @@
 <% provide(:title, 'Home') %>
-<h1>This is Your Life</h1>
-<p>
+<div class="center hero-unit">
+	<h1>This is Your Life</h1>
+<h2>
   This is an application to create your own bucket list and share it with the universe. Get busy.
-</p>
+</h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
